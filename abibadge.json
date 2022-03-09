@@ -1,0 +1,58 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "_from",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "userId",
+				"type": "string"
+			}
+		],
+		"name": "badgeAttached",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_newUser",
+				"type": "string"
+			}
+		],
+		"name": "discordId",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "userId",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
