@@ -4,16 +4,26 @@ A discord Bot  Triggered by events emit by smart contracts
 requires node
 
 
-#Install
+Install
 
-#Clone the Repo
+Clone the Repo
 clone repo  git clone https://github.com/leetebbs/discord-bot-crypto
 
-#Change directory
+Change directory
 cd discord-bot-crypto
 
-#Install dependencies
+Install dependencies
 npm install
 
-#run the app
+Edit .env
+
+TOKEN = --- BOT TOKEN ---
+CONTRACT_ADDRESS = --- CONTRACT ADDRESS ---
+SERVER_ID = --- GUILD ID ---
+ROLE_ID = --- ROLE ID ---
+WHURL = --- WEBHOOK URL --- 
+CHANNEL_ID = --- CHANNEL ID --- Admin Channel to write to
+
+
+run the app
 node fianl.js
