@@ -36,7 +36,7 @@ async function listen(){
            
     })
         .on('error', console.error);
-        setTimeout(listen,40000);
+        setTimeout(listen,30000);
         console.log('pinged by timer ⏰');
 
 }
@@ -56,7 +56,7 @@ async function botSetup(){
     client.on('messageCreate', message =>{
         if(message.content === 'Badge_Holder_Added') {
             if(!message.author.bot) return;
-            const guild = client.guilds.cache.get('948929783817990194');
+            const guild = client.guilds.cache.get(process.env.SERVER_ID);
             guild.members.fetch().then(members =>
             {
                 members.forEach(member =>
@@ -77,5 +77,5 @@ async function botSetup(){
     });
 
     
-      }
+}
 
