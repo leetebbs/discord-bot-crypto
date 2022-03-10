@@ -26,4 +26,33 @@ CHANNEL_ID = --- CHANNEL ID --- Admin Channel to write to
 
 
 run the app
-node fianl.js
+node final.js
+
+
+# How to :
+
+Create Bot @:--
+https://discord.com/developers/ 
+
+I gave the bot admin rights but this should be set to what permissions you need.
+
+Turn both Privileged Gateway Intents  ON
+
+Add Bot Token to the .env file
+
+Create Channel :---
+
+Create a new Private text channel, add the bot to the channel.
+
+Add channel Id to the .env file
+
+edit channel and add webhook.
+
+Add webhook URL to the .env file
+
+Create a new role in server:---
+
+Bot must be higher than other users.
+
+Copy role Id to tthe .env file.
+
