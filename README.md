@@ -1,5 +1,5 @@
 # discord-bot-crypto
-A discord Bot  Triggered by events emit by smart contracts
+A discord Bot  Triggered by events emitted by smart contracts
 
 requires node
 
@@ -7,15 +7,19 @@ requires node
 Install
 
 Clone the Repo
+
 clone repo  git clone https://github.com/leetebbs/discord-bot-crypto
 
 Change directory
+
 cd discord-bot-crypto
 
 Install dependencies
+
 npm install
 
 run the app
+
 node final.js
 
 
