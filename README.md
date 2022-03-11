@@ -8,7 +8,7 @@ Install
 
 Clone the Repo
 
-clone repo  git clone https://github.com/leetebbs/discord-bot-crypto
+clone the repo  git clone https://github.com/leetebbs/discord-bot-crypto
 
 Change directory
 
