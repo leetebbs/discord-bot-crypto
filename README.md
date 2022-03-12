@@ -50,3 +50,15 @@ Bot must be higher than other users.
 
 Copy role Id to tthe .env file.
 
+
+test contract  0x78A0DB423A86110E99687C0Db2dCa7B75bbF03c3
+
+url of kcc testnet to interact with the test contract:
+
+https://scan-testnet.kcc.network/address/0x78A0DB423A86110E99687C0Db2dCa7B75bbF03c3/write-contract
+
+enter discord username (Test  not Test#2643) 
+
+badgeAttached id the event emited / websocket listens for this.
+
+
