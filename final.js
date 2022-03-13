@@ -6,11 +6,12 @@ const address = process.env.CONTRACT_ADDRESS;
 const contract = new web3.eth.Contract(badgeAbi, address);
 const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS] });
-client.login(process.env.TOKEN);
 
 client.on('ready', () => {
     console.log('The bot is ready 🤖');
 listen();
+})
+
 async function listen(){
     contract.events.badgeAttached({  
         filter: {myIndexedParam: [20,23], myOtherIndexedParam: ''}, 
@@ -41,5 +42,6 @@ async function listen(){
         .on('error', console.error);
         setTimeout(listen,30000);
         console.log('pinged by timer ⏰');
+        
 }
-})
+client.login(process.env.TOKEN);
