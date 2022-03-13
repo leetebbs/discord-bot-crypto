@@ -12,8 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0",
-    "fetch": "^1.1.0",
-    "node-fetch": "^2.6.7"
+    "dotenv": "^16.0.0"
   }
 }
